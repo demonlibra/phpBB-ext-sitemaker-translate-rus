@@ -41,7 +41,7 @@ $strings = array(
 	'ACP_SM_SETTINGS'			=> 'Настройки',
 
 	'FILEMANAGER_SETTINGS'						=> 'Настройки файлового менеджера',
-	'FILEMANAGER_STATUS'						=> 'Статус',
+	'FILEMANAGER_STATUS'						=> 'Состояние файлового менеджера',
 	'FILEMANAGER_NO_EXIST'						=> 'Прежде чем Вы сможете продолжить, необходимо установить Диспетчер файлов. Инструкции по установке находится <a href="https://github.com/blitze/phpBB-ext-sitemaker/blob/develop/docs/en/filemanager.md" target="_blank"  rel="noopener noreferrer"><strong>здесь</strong></a>',
 	'FILEMANAGER_IMAGE_AUTO_RESIZE'				=> 'Автоматически изменять размер загруженных изображений?',
 	'FILEMANAGER_IMAGE_AUTO_RESIZE_DIMENSIONS'	=> 'Изменить размер до указанных размеров',
@@ -73,13 +73,13 @@ $strings = array(
 	'FILEMANAGER_AVIARY_API_KEY'				=> 'API-интерфейс редактора изображений Aviary',
 	'FILEMANAGER_AVIARY_API_KEY_EXPLAIN'		=> 'Подпишитесь на creativesdk.adobe.com, чтобы получить бесплатный ключ API на <a href="https://creativesdk.adobe.com/myapps.html" target="_blank"><strong>My Apps</strong></a>.<br />Без действительного ключа API вы не сможете сохранить отредактированные изображения',
 
-	'FORUM_INDEX_SETTINGS'			=> 'Настройки первой страницы форума',
-	'FORUM_INDEX_SETTINGS_EXPLAIN'	=> 'Эти настройки применяются только тогда, когда начальная страница не определена',
+	'FORUM_INDEX_SETTINGS'			=> 'Настройки Главной страницы форума',
+	'FORUM_INDEX_SETTINGS_EXPLAIN'	=> 'Эти настройки используются только если не задана начальная страница',
 
 	'HIDE'						=> 'Скрыть',
-	'HIDE_BIRTHDAY'				=> 'Скрыть раздел «Дни рождения»',
-	'HIDE_LOGIN'				=> 'Скрыть окно авторизации',
-	'HIDE_ONLINE'				=> 'Скрыть раздел Кто в сети',
+	'HIDE_BIRTHDAY'				=> 'Скрыть раздел «ДНИ РОЖДЕНИЯ» в нижней части форума',
+	'HIDE_LOGIN'				=> 'Скрыть раздел ’ВХОД - РЕГИСТРАЦИЯ’ в нижней части форума',
+	'HIDE_ONLINE'				=> 'Скрыть раздел ’КТО СЕЙЧАС НА КОНФЕРЕНЦИИ’ в нижней части форума',
 
 	'LAYOUT_BLOG'				=> 'Блог',
 	'LAYOUT_CUSTOM'				=> 'Пользовательский',
@@ -91,10 +91,10 @@ $strings = array(
 	'NAVIGATION_SETTINGS'		=> 'Настройки навигации',
 	'NO_NAVBAR'					=> 'Ничего',
 
-	'SELECT_NAVBAR_MENU'		=> 'Выберите главное меню навигации для шапки',
+	'SELECT_NAVBAR_MENU'		=> 'Выберите главное меню навигации для шапки форума',
 	'SETTINGS_SAVED'			=> 'Ваши настройки были сохранены',
 	'SHOW'						=> 'Демонстрация',
-	'SHOW_FORUM_NAV'			=> 'Показать ссылку ’Форум’ на панели навигации?',
+	'SHOW_FORUM_NAV'			=> 'Показать ссылку ’Форум’?',
 	'SHOW_FORUM_NAV_EXPLAIN'	=> 'Если страница задана в качестве Стартовой, отображать ссылку «Форум» на панели навигации',
 	'SHOW_FORUM_NAV_WITH_ICON'	=> 'Да - со значком:',
 );
