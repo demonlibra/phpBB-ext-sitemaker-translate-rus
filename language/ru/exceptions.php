@@ -50,11 +50,11 @@ $strings = array(
 	'EXCEPTION_FIELD_MISSING'		=> 'Обязательное поле отсутствует',
 	'EXCEPTION_INVALID_ACTION'		=> 'Действие не существует',
 	'EXCEPTION_INVALID_ARGUMENT'	=> 'Указан неверный аргумент для `%1$s`. Причина: %2$s',
-	'EXCEPTION_INVALID_DATA_TYPE'	=> 'Предоставленное значение имеет непредвиденный тип данных',
-	'EXCEPTION_INVALID_ENTITY'		=> 'Предоставленный объект имеет неожиданный класс объектов',
-	'EXCEPTION_INVALID_PROPERTY'	=> 'Запрашиваемый объект не существует',
+	'EXCEPTION_INVALID_DATA_TYPE'	=> 'Предоставленное значение имеет несоответствующий тип данных',
+	'EXCEPTION_INVALID_ENTITY'		=> 'Предоставленный объект имеет несоответствующий класс объектов',
+	'EXCEPTION_INVALID_PROPERTY'	=> 'Запрашиваемый параметр не существует',
 	'EXCEPTION_OUT_OF_BOUNDS'		=> 'Запрошенный `%1$s` не существует',
-	'EXCEPTION_SERVICE_NOT_FOUND'	=> 'Запрошенный сервис не найден',
+	'EXCEPTION_SERVICE_NOT_FOUND'	=> 'Запрошеная служба не найдена',
 	'EXCEPTION_UNEXPECTED_VALUE'	=> 'Запрашиваемое действие `%1$s` не может быть выполнено. Причина: %2$s',
 );
 
