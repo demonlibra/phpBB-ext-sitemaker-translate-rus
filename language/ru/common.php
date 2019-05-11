@@ -21,60 +21,60 @@ if (empty($lang) || !is_array($lang))
 }
 
 $strings = array(
-	'ALL_TIME'						=> 'Все время',
+	'ALL_TIME'						=> 'За все время',
 
 	'BLOCK_TITLE'					=> 'Заголовок блока',
 
 	'CHANGE_ME'						=> 'Измени меня',
 
-	'DAILY_MEMBER'					=> 'Участник дня',
+	'DAILY_MEMBER'					=> 'Пользователь дня',
 
-	'FEATURED_MEMBER'				=> 'Избранный участник',
-	'FEATURED_MEMBERLIST'			=> 'Список избранных участников',
-	'FEEDS'							=> 'Ленты',
-	'FORUM_ANNOUNCEMENTS'			=> 'Форум Объявления',
-	'FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'Объявления Глобального форума',
-	'FORUM_RECENT_POSTS'			=> 'Последние сообщения на форуме',
+	'FEATURED_MEMBER'				=> 'Избранный пользователь',
+	'FEATURED_MEMBERLIST'			=> 'Список избранных пользователей',
+	'FEEDS'							=> 'Новостные ленты',
+	'FORUM_ANNOUNCEMENTS'			=> 'Объявления',
+	'FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'Глобальные объявления',
+	'FORUM_RECENT_POSTS'			=> 'Последние сообщения форума',
 	'FORUM_RECENT_TOPICS'			=> 'Последние темы форума',
-	'FORUM_STICKY_POSTS'			=> 'Последние заметки',
+	'FORUM_STICKY_POSTS'			=> 'Последние прилепленные сообщения',
 
 	'HELP'							=> 'Справка',
-	'HOURLY_MEMBER'					=> 'Участник часа',
+	'HOURLY_MEMBER'					=> 'Пользователь часа',
 
-	'GOOGLE_MAP'					=> 'Гугл карты',
+	'GOOGLE_MAP'					=> 'Карты Google',
 
-	'JOIN_DATE'						=> 'Дате вступления',
+	'JOIN_DATE'						=> 'Дата вступления',
 
 	'LAST_POST_BY_AUTHOR'			=> 'Последнее сообщение от',
 	'LAST_VISITED'					=> 'Последнее посещение',
 	'LINKS'							=> 'Ссылки',
 
-	'MCP_SITEMAKER_CONTENT'			=> 'Контент',
+	'MCP_SITEMAKER_CONTENT'			=> 'Содержимое',
 	'MEMBERS_DATE'					=> 'Дата',
 	'MENU'							=> 'Меню',
-	'MONTHLY_MEMBER'				=> 'Участник месяца',
+	'MONTHLY_MEMBER'				=> 'Пользователь месяца',
 	'MOST_TENURED'					=> 'Самый активный',
 	'MY_BOOKMARKS'					=> 'Мои закладки',
 
-	'NO_BOOKMARKED_TOPICS'			=> 'Вы не добавили ни одной темы в закладки',
-	'NO_NEW_POSTS'					=> 'Нет новых сообщений для отображения',
-	'NO_NEW_TOPICS'					=> 'Нет новых тем для отображения',
+	'NO_BOOKMARKED_TOPICS'			=> 'У Вас отсутствуют закладки',
+	'NO_NEW_POSTS'					=> 'Отсутствуют новые сообщений',
+	'NO_NEW_TOPICS'					=> 'Отсутствуют новые темы',
 
 	'POLL'							=> 'Опрос',
-	'POSTS_MEMBER'					=> 'Топ пользователей',
+	'POSTS_MEMBER'					=> 'Самый активный пользователь',
 	'PROCESSING'					=> 'обработка ...',
 
 	'QTYPE_POSTS'					=> 'Поздравления:',
-	'QTYPE_RECENT'					=> 'Пожалуйста, поприветствуйте нашего нового члена:',
+	'QTYPE_RECENT'					=> 'Пожалуйста, поприветствуйте нового пользователя:',
 
 	'RECENT_BOTS'					=> 'Последние поисковые запросы',
-	'RECENT_MEMBER'					=> 'Недавний участник',
-	'RECENT_MEMBERS'				=> 'Последние участники',
+	'RECENT_MEMBER'					=> 'Недавний пользователь',
+	'RECENT_MEMBERS'				=> 'Последние пользователи',
 
-	'SESSION_HIDE_ME'				=> 'Спрячь меня',
+	'SESSION_HIDE_ME'				=> 'Скрыть меня',
 	'SM_NAVIGATION'					=> 'Навигация',
 	'SM_TOGGLE_DROPDOWN'			=> 'Переключить выпадающий',
-	'STYLE_SWITCHER'				=> 'Стиль Switcher',
+	'STYLE_SWITCHER'				=> 'Выбор стиля',
 
 	'THIS_MONTH'					=> 'Этот месяц',
 	'THIS_WEEK'						=> 'Эта неделя',
@@ -82,17 +82,17 @@ $strings = array(
 	'TODAY'							=> 'Сегодня',
 	'TOPICS_LAST_READ'				=> 'Последние прочитанные темы',
 	'TOPIC_LAST_READ'				=> 'Последнее прочитанное %s',
-	'TOP_POSTERS'					=> 'Тор пользователей',
+	'TOP_POSTERS'					=> 'Активные пользователи',
 
 	'UCP_SITEMAKER_CONTENT'			=> 'Мои материалы',
 
-	'VIEW_DETAILS'					=> 'Детальный просмотр',
-	'VIEW_USER_PROFILE'				=> 'Все о %s',
+	'VIEW_DETAILS'					=> 'Просмотр подробностей',
+	'VIEW_USER_PROFILE'				=> 'Все о(б) %s',
 
-	'WEEKLY_MEMBER'					=> 'Участник недели',
+	'WEEKLY_MEMBER'					=> 'Пользователь недели',
 	'WELCOME'						=> 'Добро пожаловать',
 	'WHATS_NEW'						=> 'Что нового?',
-	'WORDGRAPH'						=> 'Wordgraph',
+	'WORDGRAPH'						=> 'Ключевые слова',
 );
 
 $lang = array_merge($lang, $strings);
