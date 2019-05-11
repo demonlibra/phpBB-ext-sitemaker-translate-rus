@@ -44,7 +44,7 @@ $strings = array(
 	'ACL_A_SM_FILEMANAGER'		=> 'Можно просматривать / управлять папками других пользователей в диспетчере файлов',
 
 	// User Permissions
-	'ACL_U_SM_FILEMANAGER'		=> 'Можно использовать файловый менеджер',
+	'ACL_U_SM_FILEMANAGER'		=> 'Может использовать файловый менеджер',
 );
 
 $lang = array_merge($lang, $strings);
