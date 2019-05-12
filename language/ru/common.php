@@ -34,8 +34,8 @@ $strings = array(
 	'FEEDS'							=> 'Новостные ленты',
 	'FORUM_ANNOUNCEMENTS'			=> 'Объявления',
 	'FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'Глобальные объявления',
-	'FORUM_RECENT_POSTS'			=> 'Последние сообщения форума',
-	'FORUM_RECENT_TOPICS'			=> 'Последние темы форума',
+	'FORUM_RECENT_POSTS'			=> 'Последние сообщения',
+	'FORUM_RECENT_TOPICS'			=> 'Последние темы',
 	'FORUM_STICKY_POSTS'			=> 'Последние прилепленные сообщения',
 
 	'HELP'							=> 'Справка',
@@ -43,7 +43,7 @@ $strings = array(
 
 	'GOOGLE_MAP'					=> 'Карты Google',
 
-	'JOIN_DATE'						=> 'Дата вступления',
+	'JOIN_DATE'						=> 'Дата регистрации',
 
 	'LAST_POST_BY_AUTHOR'			=> 'Последнее сообщение от',
 	'LAST_VISITED'					=> 'Последнее посещение',
@@ -68,7 +68,7 @@ $strings = array(
 	'QTYPE_RECENT'					=> 'Пожалуйста, поприветствуйте нового пользователя:',
 
 	'RECENT_BOTS'					=> 'Последние поисковые запросы',
-	'RECENT_MEMBER'					=> 'Недавний пользователь',
+	'RECENT_MEMBER'					=> 'Новый пользователь',
 	'RECENT_MEMBERS'				=> 'Последние пользователи',
 
 	'SESSION_HIDE_ME'				=> 'Скрыть меня',
@@ -86,7 +86,7 @@ $strings = array(
 
 	'UCP_SITEMAKER_CONTENT'			=> 'Мои материалы',
 
-	'VIEW_DETAILS'					=> 'Просмотр подробностей',
+	'VIEW_DETAILS'					=> 'Подробно',
 	'VIEW_USER_PROFILE'				=> 'Все о(б) %s',
 
 	'WEEKLY_MEMBER'					=> 'Пользователь недели',

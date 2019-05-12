@@ -30,7 +30,7 @@ $strings = array(
 	'BLOCKS'									=> 'Блоки',
 	'BLOCKS_COPY_FROM'							=> 'Копировать блоки',
 	'BLOCK_ACTIVE'								=> 'Активный',
-	'BLOCK_CHILD_ROUTES_ONLY'					=> 'Показывать только на дочерних страницах',
+	'BLOCK_CHILD_ROUTES_ONLY'					=> 'Только на дочерних страницах',
 	'BLOCK_CHILD_ROUTES_HIDE'					=> 'Скрыть на дочерних страницах',
 	'BLOCK_CLASS'								=> 'Класс CSS',
 	'BLOCK_CLASS_EXPLAIN'						=> 'Изменить внешний вид блока с помощью классов CSS',
@@ -67,7 +67,7 @@ $strings = array(
 	'EXIT_EDIT_MODE'							=> 'Выйти из режима редактирования',
 
 	'FEED_PROBLEMS'								=> 'Возникла проблема при обработке каналов rss/atom',
-	'FEED_URL_MISSING'							=> 'Пожалуйста, укажите хотя бы один канал rss/atom для начала',
+	'FEED_URL_MISSING'							=> 'Укажите хотя бы один канал rss/atom',
 	'FIELD_INVALID'								=> 'Предоставленное значение для поля “%s” имеет неверный формат',
 	'FIELD_REQUIRED'							=> 'Поле “%s” является обязательным',
 	'FIELD_TOO_LONG'							=> 'Значение поля “%1$s” слишком длинное. Максимально допустимое значение %2$d.',
