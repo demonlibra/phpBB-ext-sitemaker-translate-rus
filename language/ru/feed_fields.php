@@ -64,6 +64,7 @@ $strings = array(
 	'DURATION'			=> 'продолжительность',
 	'ENCLOSURE'			=> 'вложение',
 	'ENCLOSURES'		=> 'вложения (массив)',
+	'EXPRESSION'		=> 'выражение',
 	'FEED'				=> 'новостная лента',
 	'FRAMERATE'			=> 'частота кадров',
 	'GMDATE'			=> 'GM дата',
