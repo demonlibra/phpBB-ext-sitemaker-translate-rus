@@ -1,6 +1,6 @@
 # Перевод расширения phpBB SiteMaker 3.2.0 на русский язык
 
-Перевод основан на работе **Golan**, участника форума [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?t=49204&start=60#p536773).
+Перевод основан на работе **Golan**, участника форума [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536891#p536891).
 
 ## Установка
 
