@@ -19,3 +19,7 @@
 ## Предложения и замечания
 
 Свои замечания по переводу Вы можете разместить в меню [Issues](https://github.com/demonlibra/phpBB-ext-sitemaker-3.2-translate-rus/issues) и в теме обсуждения перевода расширения на форуме [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536855#p536855).
+
+## Снимки экрана
+
+<img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-3.2-translate-rus/blob/master/screenshots/adm_menu1.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-3.2-translate-rus/blob/master/screenshots/adm_menu2.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-3.2-translate-rus/blob/master/screenshots/adm_settings.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-3.2-translate-rus/blob/master/screenshots/blocks.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-3.2-translate-rus/blob/master/screenshots/settings.png" />
