@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$strings = array(
+$lang = array_merge($lang, array(
 	'ACP_MENU'					=> 'Menu',
 	'ACP_MENU_MANAGE'			=> 'Menu Management',
 	'ACP_MENU_MANAGE_EXPLAIN'	=> 'Here you can create and manage menus for your site',
@@ -68,8 +68,6 @@ $strings = array(
 	'ITEM_URL'					=> 'Item URL',
 	'ITEM_URL_EXPLAIN'			=> '- Leave empty for headings<br />- External sites must begin with http(s)://, ftp://, //, etc',
 
-	'LOADING'					=> 'Loading...',
-
 	'MENU_ITEMS'				=> 'Menu Items',
 
 	'NO_MENU_ITEMS'				=> 'No menu items have been created',
@@ -91,6 +89,4 @@ $strings = array(
 	'UNSAVED_CHANGES'			=> 'You have unsaved changes',
 
 	'VISIT_PAGE'				=> 'Visit Page',
-);
-
-$lang = array_merge($lang, $strings);
+));

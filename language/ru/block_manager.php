@@ -20,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$strings = array(
+$lang = array_merge($lang, array(
 	'ADD_BLOCK_EXPLAIN'							=> '*Перетащите блоки и расположите в требуемой позиции',
 	'AJAX_ERROR'								=> 'Произошла ошибка в процессе обработки вашего запроса. Пожалуйста, попробуйте еще раз.',
 	'AJAX_LOADING'								=> 'Загрузка',
@@ -50,7 +50,6 @@ $strings = array(
 	'CHILD_ROUTE'								=> 'Зависимые',
 	'CHILD_ROUTE_EXPLAIN'						=> '/viewforum.php, /dir/index.php<br />/viewtopic.php?f=2&t=1<br />/articles/my-article',
 	'CLEAR'										=> 'Очистить',
-	'COLUMN_WIDTH_EXPLAIN'						=> 'Нажмите ввод для сохранения',
 	'COPY'										=> 'Копировать',
 	'COPY_BLOCKS'								=> 'Копировать блоки?',
 	'COPY_BLOCKS_CONFIRM'						=> 'Вы уверены, что хотите скопировать блоки с другой страницы? <br /> <br /> Это удалит все существующие блоки и их настройки для этой страницы и заменит их на блоки с выбранной страницы.',
@@ -116,6 +115,4 @@ $strings = array(
 
 	'VIEW_DEFAULT_LAYOUT'						=> 'Просмотр / редактирование макета по умолчанию',
 	'VISIT_PAGE'								=> 'Посетить страницу',
-);
-
-$lang = array_merge($lang, $strings);
+));

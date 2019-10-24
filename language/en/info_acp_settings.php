@@ -1,4 +1,5 @@
 <?php
+
 /**
  *
  * @package phpBB Sitemaker [English]
@@ -8,8 +9,8 @@
  */
 
 /**
-* @ignore
-*/
+ * @ignore
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -36,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$strings = array(
+$lang = array_merge($lang, array(
 	'ACP_SITEMAKER'				=> 'SiteMaker',
 	'ACP_SM_SETTINGS'			=> 'Settings',
 
@@ -67,11 +68,9 @@ $strings = array(
 	'FILEMANAGER_WATERMARK_POSITION_BL'			=> 'Bottom Left',
 	'FILEMANAGER_WATERMARK_POSITION_B'			=> 'Bottom',
 	'FILEMANAGER_WATERMARK_POSITION_BR'			=> 'Bottom Right',
-	'FILEMANAGER_WATERMARK_POSITION_SUFFIX'	=> 'or',
+	'FILEMANAGER_WATERMARK_POSITION_SUFFIX'		=> 'or',
 	'FILEMANAGER_WATERMARK_PADDING'				=> 'Watermark padding',
 	'FILEMANAGER_WATERMARK_PADDING_EXPLAIN'		=> 'If using a pre-determined position you can adjust the padding from the edges. If using co-ordinates, this value is ignored',
-	'FILEMANAGER_AVIARY_API_KEY'				=> 'Aviary Image editor API key',
-	'FILEMANAGER_AVIARY_API_KEY_EXPLAIN'		=> 'Subscribe to creativesdk.adobe.com to get a free api key at <a href="https://creativesdk.adobe.com/myapps.html" target="_blank"><strong>My Apps</strong></a>.<br />Without a valid API key, you will not be able to save your edited images',
 
 	'FORUM_INDEX_SETTINGS'			=> 'Forum Index Settings',
 	'FORUM_INDEX_SETTINGS_EXPLAIN'	=> 'These settings only apply when there is no startpage defined',
@@ -88,6 +87,10 @@ $strings = array(
 	'LAYOUT_PORTAL_ALT'			=> 'Portal (alt)',
 	'LAYOUT_SETTINGS'			=> 'Layout Settings',
 
+	'LOG_DELETED_BLOCKS_FOR_STYLE'	=> 'Sitemaker blocks deleted for missing style with id %s',
+	'LOG_DELETED_BLOCKS_FOR_ROUTE'	=> 'Sitemaker blocks deleted for broken pages:<br />%s',
+	'LOG_DELETED_BLOCKS'			=> 'Invalid Sitemaker blocks deleted:<br />%s',
+
 	'NAVIGATION_SETTINGS'		=> 'Navigation Settings',
 	'NO_NAVBAR'					=> 'None',
 
@@ -97,6 +100,4 @@ $strings = array(
 	'SHOW_FORUM_NAV'			=> 'Show ’Forum’ in navigation bar?',
 	'SHOW_FORUM_NAV_EXPLAIN'	=> 'When a page is set as startpage instead of the forum index, should we display ’Forum’ in navigation bar',
 	'SHOW_FORUM_NAV_WITH_ICON'	=> 'Yes - with icon:',
-);
-
-$lang = array_merge($lang, $strings);
+));

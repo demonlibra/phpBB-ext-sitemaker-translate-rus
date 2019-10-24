@@ -1,4 +1,5 @@
 <?php
+
 /**
  *
  * @package phpBB Sitemaker [English]
@@ -8,8 +9,8 @@
  */
 
 /**
-* @ignore
-*/
+ * @ignore
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -36,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$strings = array(
+$lang = array_merge($lang, array(
 	'ACP_SITEMAKER'				=> 'SiteMaker',
 	'ACP_SM_SETTINGS'			=> 'Настройки',
 
@@ -70,8 +71,6 @@ $strings = array(
 	'FILEMANAGER_WATERMARK_POSITION_SUFFIX'	=> 'или',
 	'FILEMANAGER_WATERMARK_PADDING'				=> 'Водяной знак размещен',
 	'FILEMANAGER_WATERMARK_PADDING_EXPLAIN'		=> 'Если вы используете заранее определенную позицию, вы можете задать отступы по краям. Если используются координаты, это значение игнорируется',
-	'FILEMANAGER_AVIARY_API_KEY'				=> 'API-интерфейс редактора изображений Aviary',
-	'FILEMANAGER_AVIARY_API_KEY_EXPLAIN'		=> 'Подпишитесь на creativesdk.adobe.com, чтобы получить бесплатный ключ API на <a href="https://creativesdk.adobe.com/myapps.html" target="_blank"><strong>My Apps</strong></a>.<br />Без действительного ключа API вы не сможете сохранить отредактированные изображения',
 
 	'FORUM_INDEX_SETTINGS'			=> 'Настройки Главной страницы форума',
 	'FORUM_INDEX_SETTINGS_EXPLAIN'	=> 'Эти настройки используются только если не задана начальная страница',
@@ -88,6 +87,10 @@ $strings = array(
 	'LAYOUT_PORTAL_ALT'			=> 'Портал (альтернатива)',
 	'LAYOUT_SETTINGS'			=> 'Настройки макета',
 
+	'LOG_DELETED_BLOCKS_FOR_STYLE'	=> 'Sitemaker blocks deleted for missing style with id %s',
+	'LOG_DELETED_BLOCKS_FOR_ROUTE'	=> 'Sitemaker blocks deleted for broken pages:<br />%s',
+	'LOG_DELETED_BLOCKS'			=> 'Invalid Sitemaker blocks deleted:<br />%s',
+
 	'NAVIGATION_SETTINGS'		=> 'Настройки навигации',
 	'NO_NAVBAR'					=> 'Ничего',
 
@@ -97,6 +100,4 @@ $strings = array(
 	'SHOW_FORUM_NAV'			=> 'Показать ссылку ’Форум’?',
 	'SHOW_FORUM_NAV_EXPLAIN'	=> 'Если страница задана в качестве Стартовой, отображать ссылку «Форум» на панели навигации',
 	'SHOW_FORUM_NAV_WITH_ICON'	=> 'Да - со значком:',
-);
-
-$lang = array_merge($lang, $strings);
+));

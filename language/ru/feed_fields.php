@@ -46,7 +46,7 @@ if (empty($lang) || !is_array($lang))
 *
 * Translators: Feel free to not translate these language strings
 */
-$strings = array(
+$lang = array_merge($lang, array(
 	'AUTHOR'			=> 'автор',
 	'AUTHORS'			=> 'авторы (массив)',
 	'BITRATE'			=> 'битрейт',
@@ -105,6 +105,4 @@ $strings = array(
 	'UPDATED_GMDATE'	=> 'обновленная GM дата',
 	'VALUE'				=> 'значение',
 	'WIDTH'				=> 'ширина',
-);
-
-$lang = array_merge($lang, $strings);
+));

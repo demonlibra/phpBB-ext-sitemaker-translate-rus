@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$strings = array(
+$lang = array_merge($lang, array(
 	'ACP_MENU'					=> 'Меню',
 	'ACP_MENU_MANAGE'			=> 'Управление Меню',
 	'ACP_MENU_MANAGE_EXPLAIN'	=> 'Здесь вы можете создавать и редактировать меню',
@@ -68,8 +68,6 @@ $strings = array(
 	'ITEM_URL'					=> 'Ссылка URL элемента',
 	'ITEM_URL_EXPLAIN'			=> '- Оставьте пустым для заголовков<br />- Внешние сайты должны начинаться с http(s)://, ftp://, ...',
 
-	'LOADING'					=> 'Загрузка...',
-
 	'MENU_ITEMS'				=> 'Элементы меню',
 
 	'NO_MENU_ITEMS'				=> 'Отсутствуют созданные элементы меню',
@@ -91,6 +89,4 @@ $strings = array(
 	'UNSAVED_CHANGES'			=> 'Остались несохраненные изменения',
 
 	'VISIT_PAGE'				=> 'Посетить страницу',
-);
-
-$lang = array_merge($lang, $strings);
+));

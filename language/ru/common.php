@@ -20,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$strings = array(
+$lang = array_merge($lang, array(
 	'ALL_TIME'						=> 'За все время',
 
 	'BLOCK_TITLE'					=> 'Заголовок блока',
@@ -57,7 +57,6 @@ $strings = array(
 	'MY_BOOKMARKS'					=> 'Мои закладки',
 
 	'NO_BOOKMARKED_TOPICS'			=> 'У Вас отсутствуют закладки',
-	'NO_NEW_POSTS'					=> 'Отсутствуют новые сообщений',
 	'NO_NEW_TOPICS'					=> 'Отсутствуют новые темы',
 
 	'POLL'							=> 'Опрос',
@@ -93,6 +92,4 @@ $strings = array(
 	'WELCOME'						=> 'Добро пожаловать',
 	'WHATS_NEW'						=> 'Что нового?',
 	'WORDGRAPH'						=> 'Ключевые слова',
-);
-
-$lang = array_merge($lang, $strings);
+));

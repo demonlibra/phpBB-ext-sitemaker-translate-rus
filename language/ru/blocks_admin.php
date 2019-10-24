@@ -20,10 +20,8 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$strings = array(
-	'ADD'										=> 'Добавить',
+$lang = array_merge($lang, array(
 	'ALL_TYPES'									=> 'Все типы',
-	'ALL_FORUMS'								=> 'Все форумы',
 	'ALL_GROUPS'								=> 'Все группы',
 	'ARCHIVES'									=> 'Архив',
 	'AUTO_LOGIN'								=> 'Разрешить автоматический вход?',
@@ -132,7 +130,6 @@ $strings = array(
 	'OR'										=> '<strong>ИЛИ</strong>',
 	'ORDER_BY'									=> 'Сортировать по',
 
-	'PIXEL'										=> 'px',
 	'POLL_FROM_FORUMS'							=> 'Показать опросы из форумов',
 	'POLL_FROM_FORUMS_EXPLAIN'					=> 'Будут отображаться только опросы из выбранных форумов, если темы не указаны выше',
 	'POLL_FROM_GROUPS'							=> 'Показать опросы из групп(ы)',
@@ -174,6 +171,4 @@ $strings = array(
 
 	'WORD_MAX_SIZE'								=> 'Максимальный размер шрифта',
 	'WORD_MIN_SIZE'								=> 'Минимальный размер шрифта',
-);
-
-$lang = array_merge($lang, $strings);
+));

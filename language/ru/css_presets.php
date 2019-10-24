@@ -46,7 +46,7 @@ if (empty($lang) || !is_array($lang))
 *
 * Translators: Feel free to not translate these language strings
 */
-$strings = array(
+$lang = array_merge($lang, array(
 	'LIST_FLAT'				=> 'Плоский список',
 	'LIST_ARROW'			=> 'Список со стрелкой',
 	'LIST_CIRCLE'			=> 'Маркер с точкам',
@@ -99,6 +99,4 @@ $strings = array(
 	'SUCCESS_COLOR'			=> 'Успешно',
 	'WARNING_COLOR'			=> 'Внимание',
 	'DANGER_COLOR'			=> 'Опасно',
-);
-
-$lang = array_merge($lang, $strings);
+));

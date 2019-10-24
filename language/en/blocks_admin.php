@@ -20,10 +20,8 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$strings = array(
-	'ADD'										=> 'Add',
+$lang = array_merge($lang, array(
 	'ALL_TYPES'									=> 'All Types',
-	'ALL_FORUMS'								=> 'All Forums',
 	'ALL_GROUPS'								=> 'All Groups',
 	'ARCHIVES'									=> 'Archives',
 	'AUTO_LOGIN'								=> 'Allow auto login?',
@@ -132,7 +130,6 @@ $strings = array(
 	'OR'										=> '<strong>OR</strong>',
 	'ORDER_BY'									=> 'Order by',
 
-	'PIXEL'										=> 'px',
 	'POLL_FROM_FORUMS'							=> 'Display polls from forums(s)',
 	'POLL_FROM_FORUMS_EXPLAIN'					=> 'Only polls from the selected forums will be displayed as long as no topics are specified above',
 	'POLL_FROM_GROUPS'							=> 'Display polls from groups(s)',
@@ -174,6 +171,4 @@ $strings = array(
 
 	'WORD_MAX_SIZE'								=> 'Maximum font size',
 	'WORD_MIN_SIZE'								=> 'Minimum font size',
-);
-
-$lang = array_merge($lang, $strings);
+));
