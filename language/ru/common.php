@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 
 	'RECENT_BOTS'					=> 'Последние поисковые запросы',
 	'RECENT_MEMBER'					=> 'Новый пользователь',
-	'RECENT_MEMBERS'				=> 'Последние пользователи',
+	'RECENT_MEMBERS'				=> 'Новые пользователи',
 
 	'SESSION_HIDE_ME'				=> 'Скрыть меня',
 	'SM_NAVIGATION'					=> 'Навигация',

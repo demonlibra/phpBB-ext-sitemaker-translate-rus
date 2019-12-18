@@ -77,8 +77,17 @@ $lang = array_merge($lang, array(
 
 	'FEATURED_MEMBER_IDS'						=> 'Идентификатор пользователя',
 	'FEATURED_MEMBER_IDS_EXPLAIN'				=> 'Разделенный запятыми список пользователей (относится только к режиму отображения Избранных пользователей)',
+	'FEED_DATA_PREVIEW'							=> 'Данные новостной ленты',
 	'FEED_ITEM_TEMPLATE'						=> 'Шаблон новостной ленты',
-	'FEED_ITEM_TEMPLATE_EXPLAIN'				=> '<strong>Подсказки:</strong><br />- Доступ к данным канала указан в переменной <strong>item</strong> Например item.title<br />- Нажмите <strong>Примеры</strong> для отображения образцов шаблонов<br />- Шаблон должен соответствовать <a href="https://twig.symfony.com/doc/2.x/" target="_blank">Синтаксису Twig</a>',
+	'FEED_ITEM_TEMPLATE_EXPLAIN'				=> '<strong>Подсказки:</strong><br />
+		<ul class="sm-list">
+			<li>Доступ к данным канала указан в переменной <strong>item</strong> Например item.title</li>
+			<li>Шаблон должен соответствовать <a href="https://twig.symfony.com/doc/2.x/" target="_blank">Синтаксису Twig</a></li>
+			<li>Нажмите <strong>Примеры</strong> выше для ознакомления с примерами шаблонов</li>
+			<li>Используйте <code>get_item_tags(<a href="http://simplepie.org/wiki/faq/supported_xml_namespaces" target="_blank">$namespace</a>, $tag)</code> для получения тегов из канала, например <br /><strong><code>{{ get_item_tags(\'\', \'image\') }}</code></strong></li>
+			<li>Используйте Twig’s json_encode фильтр для отображения содержимого массива, например <strong><code>{{ get_item_tags(\'\', \'image\')|json_encode() }}</code></strong></li>
+		</ul>',
+	'FEED_PREVIEW_SOURCE'						=> 'Источник',
 	'FEED_URL_PLACEHOLDER'						=> 'http://example.com/rss',
 	'FEED_URLS'									=> 'URL новостных лент',
 	'FIRST_POST_ONLY'							=> 'Только первое сообщение',

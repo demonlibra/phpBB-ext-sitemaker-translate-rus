@@ -41,6 +41,13 @@ $lang = array_merge($lang, array(
 	'ACP_SITEMAKER'				=> 'SiteMaker',
 	'ACP_SM_SETTINGS'			=> 'Настройки',
 
+	'BLOCKS_CLEANUP'			=> 'Очистка блоков',
+	'BLOCKS_CLEANUP_EXPLAIN'	=> 'Следующие элементы больше не существуют или не доступны, поэтому Вы можете удалить все связанные с ними блоки.',
+	'BLOCKS_CLEANUP_BLOCKS'		=> 'Ошибка блока (например от удаленного расширения):',
+	'BLOCKS_CLEANUP_ROUTES'		=> 'Недоступные/испорченные страницы:',
+	'BLOCKS_CLEANUP_STYLES'		=> 'Удаленные стили (id):',
+	'BLOCKS_CLEANUP_SUCCESS'	=> 'Блоки успешно удалены',
+
 	'FILEMANAGER_SETTINGS'						=> 'Настройки файлового менеджера',
 	'FILEMANAGER_STATUS'						=> 'Состояние файлового менеджера',
 	'FILEMANAGER_NO_EXIST'						=> 'Прежде чем Вы сможете продолжить, необходимо установить Диспетчер файлов. Инструкции по установке находится <a href="https://github.com/blitze/phpBB-ext-sitemaker/blob/develop/docs/en/filemanager.md" target="_blank"  rel="noopener noreferrer"><strong>здесь</strong></a>',
