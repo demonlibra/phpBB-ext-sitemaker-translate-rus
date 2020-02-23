@@ -1,4 +1,4 @@
-# Перевод расширения phpBB SiteMaker 3.2.0 на русский язык
+# Перевод расширения SiteMaker 3.2.0 на русский язык
 
 Перевод основан на работе **Golan**, участника форума [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536891#p536891).
 
@@ -11,10 +11,11 @@
 3. Скопируйте каталог `ru` в `.../ext/blitze/sitemaker/language/`
 
 
-## Примечания по расширению phpBB SiteMaker 3.2.0
+## Примечания по расширению SiteMaker 3.2.0
 
-Расширение phpBB SiteMaker 3.2.0 находится в процессе разработки.  
-Ссылка на последнюю версию расширения [phpBB SiteMaker 3.2.0](https://github.com/blitze/phpBB-ext-sitemaker/tree/release-3.2.0).
+Версия расширения [SiteMaker 3.2.0](https://github.com/blitze/phpBB-ext-sitemaker/releases/tag/v3.2.0) предназначена для phpBB 3.2.x  
+
+Для phpBB 3.3.x ведется разработка версии [SiteMaker 3.2.1](https://github.com/blitze/phpBB-ext-sitemaker/tree/develop).
 
 ## Предложения и замечания
 
