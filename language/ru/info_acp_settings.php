@@ -1,11 +1,8 @@
 <?php
 
 /**
- *
- * @package phpBB Sitemaker [English]
  * @copyright (c) 2013 Daniel A. (blitze)
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
  */
 
 /**
@@ -18,7 +15,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,9 +34,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
-	'ACP_SITEMAKER'				=> 'SiteMaker',
-	'ACP_SM_SETTINGS'			=> 'Настройки',
+$lang = array_merge($lang, [
+	'ACP_SITEMAKER'		=> 'SiteMaker',
+	'ACP_SM_SETTINGS'	=> 'Настройки',
 
 	'BLOCKS_CLEANUP'			=> 'Очистка блоков',
 	'BLOCKS_CLEANUP_EXPLAIN'	=> 'Следующие элементы больше не существуют или не доступны, поэтому Вы можете удалить все связанные с ними блоки.',
@@ -51,6 +48,7 @@ $lang = array_merge($lang, array(
 	'FILEMANAGER_SETTINGS'						=> 'Настройки файлового менеджера',
 	'FILEMANAGER_STATUS'						=> 'Состояние файлового менеджера',
 	'FILEMANAGER_NO_EXIST'						=> 'Прежде чем Вы сможете продолжить, необходимо установить Диспетчер файлов. Инструкции по установке находится <a href="https://github.com/blitze/phpBB-ext-sitemaker/blob/develop/docs/en/filemanager.md" target="_blank"  rel="noopener noreferrer"><strong>здесь</strong></a>',
+	'FILEMENAGER_NOT_WRITABLE'					=> 'Файл конфигурации файлового менеджера (root/ResponsiveFilemanager/filemanager/config/) не доступен для записи. Пожалуйста, откройте права записи (777 или -rwxrwxrwx)',
 	'FILEMANAGER_IMAGE_AUTO_RESIZE'				=> 'Автоматически изменять размер загруженных изображений?',
 	'FILEMANAGER_IMAGE_AUTO_RESIZE_DIMENSIONS'	=> 'Изменить размер до указанных размеров',
 	'FILEMANAGER_IMAGE_AUTO_RESIZING_MODE'		=> 'Режим автоматического изменения размера',
@@ -75,7 +73,7 @@ $lang = array_merge($lang, array(
 	'FILEMANAGER_WATERMARK_POSITION_BL'			=> 'Снизу слева',
 	'FILEMANAGER_WATERMARK_POSITION_B'			=> 'Снизу',
 	'FILEMANAGER_WATERMARK_POSITION_BR'			=> 'Снизу справа',
-	'FILEMANAGER_WATERMARK_POSITION_SUFFIX'	=> 'или',
+	'FILEMANAGER_WATERMARK_POSITION_SUFFIX'		=> 'или',
 	'FILEMANAGER_WATERMARK_PADDING'				=> 'Водяной знак размещен',
 	'FILEMANAGER_WATERMARK_PADDING_EXPLAIN'		=> 'Если вы используете заранее определенную позицию, вы можете задать отступы по краям. Если используются координаты, это значение игнорируется',
 
@@ -107,4 +105,4 @@ $lang = array_merge($lang, array(
 	'SHOW_FORUM_NAV'			=> 'Показать ссылку ’Форум’?',
 	'SHOW_FORUM_NAV_EXPLAIN'	=> 'Если страница задана в качестве Стартовой, отображать ссылку «Форум» на панели навигации',
 	'SHOW_FORUM_NAV_WITH_ICON'	=> 'Да - со значком:',
-));
+]);
