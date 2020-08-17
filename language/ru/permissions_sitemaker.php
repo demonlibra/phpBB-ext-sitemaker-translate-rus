@@ -1,15 +1,16 @@
 <?php
-/**
-*
-* @package phpBB Sitemaker [English]
- * @copyright (c) 2013 Daniel A. (blitze)
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
 
 /**
-* DO NOT CHANGE
-*/
+ *
+ * @package phpBB Sitemaker [English]
+ * @copyright (c) 2013 Daniel A. (blitze)
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ *
+ */
+
+/**
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -38,11 +39,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// Admin Permissions
-	'ACL_A_SM_SETTINGS'			=> 'Может управлять настройками Sitemaker',
-	'ACL_A_SM_MANAGE_BLOCKS'	=> 'Может управлять блоками Sitemaker',
-	'ACL_A_SM_MANAGE_MENUS'		=> 'Может управлять меню Sitemaker',
-	'ACL_A_SM_FILEMANAGER'		=> 'Можно просматривать / управлять папками других пользователей в диспетчере файлов',
+	'ACL_A_SM_SETTINGS'			=> '[ SiteMaker ] Может управлять настройками Sitemaker',
+	'ACL_A_SM_MANAGE_BLOCKS'	=> '[ SiteMaker ] Может управлять блоками Sitemaker',
+	'ACL_A_SM_MANAGE_MENUS'		=> '[ SiteMaker ] Может управлять меню Sitemaker',
+	'ACL_A_SM_FILEMANAGER'		=> '[ SiteMaker ] Можно просматривать / управлять папками других пользователей в диспетчере файлов',
 
 	// User Permissions
-	'ACL_U_SM_FILEMANAGER'		=> 'Может использовать файловый менеджер',
+	'ACL_U_SM_FILEMANAGER'		=> '[ SiteMaker ] Может использовать файловый менеджер',
 ));

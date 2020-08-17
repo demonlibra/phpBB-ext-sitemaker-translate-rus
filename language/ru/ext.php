@@ -37,6 +37,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'IMAGE_DIRECTORY_NOT_WRITABLE'	=> 'Каталог для изображений не доступен для записи. Пожалуйста, откройте права записи (777 или -rwxrwxrwx)',
+	'IMAGE_DIRECTORY_NOT_WRITABLE'	=> 'Каталог image закрыт для записи. Измените права доступа (777 or -rwxrwxrwx через FTP клиент)',
 	'PHPBB_VERSION_UNMET'		=> 'Для этого расширения требуется phpBB %s',
 ));
