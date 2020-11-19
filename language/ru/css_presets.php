@@ -1,4 +1,5 @@
 <?php
+
 /**
  *
  * @package phpBB Sitemaker [English]
@@ -8,8 +9,8 @@
  */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -37,17 +38,31 @@ if (empty($lang) || !is_array($lang))
 //
 //
 $lang = array_merge($lang, array(
-	'LIST_FLAT'				=> 'Плоский список',
 	'LIST_ARROW'			=> 'Список со стрелкой',
 	'LIST_CIRCLE'			=> 'Маркер с точкам',
 	'LIST_DISC'				=> 'Метка списка маркеров',
 	'LIST_SQUARE'			=> 'Список с квадратными скобками',
 	'LIST_NUMBERED'			=> 'Нумерованный список',
+	'LIST_NUMBERED_ALPHABET' => 'Нумерованный список буквами',
+	'LIST_NUMBERED_NESTED'	=> 'Нумерованный список с подразделами',
+	'LIST_NUMBERED_ROMAN'	=> 'Нумерованный список римскими цифрами',
+	'LIST_NUMBERED_ZERO'	=> 'Нумерованный список с нуля',
 	'LIST_INLINE'			=> 'Список в строку',
 	'LIST_INLINE_SEP'		=> 'Список через запятую',
-	'LIST_HOVER'			=> 'Выделенный при наведении',
+	'LIST_REVERSE'			=> 'Обратный порядок',
 	'LIST_STRIPED'			=> 'Полосатый список',
 	'LIST_STACKED'			=> 'Сложенный список',
+	'LIST_TRIANGLE'			=> 'Треугольник',
+	'LIST_HYPHEN'			=> 'Дефис',
+	'LIST_PLUS'				=> 'Плюс',
+	'LIST_SPADE'			=> 'Spade',
+	'LIST_CLUB'				=> 'Клуб',
+	'LIST_DIAMOND'			=> 'Брилиант',
+	'LIST_HEART'			=> 'Сердце',
+	'LIST_STAR'				=> 'Звезда',
+	'LIST_CHECK'			=> 'Проверка',
+	'LIST_SNOWFLAKE'		=> 'Снежинка',
+	'LIST_MUSIC'			=> 'Музыка',
 	'LIST_AUTOWIDTH'		=> 'Авто ширина',
 	'LIST_FIT_CONTENT'		=> 'Подогнать содержимое',
 	'LIST_2COLS'			=> 'Список 2-х столбцов',

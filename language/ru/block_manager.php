@@ -1,15 +1,16 @@
 <?php
-/**
-*
-* @package phpBB Sitemaker [English]
-* @copyright (c) 2012 Daniel A. (blitze)
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
 
 /**
-* @ignore
-*/
+ *
+ * @package phpBB Sitemaker [English]
+ * @copyright (c) 2012 Daniel A. (blitze)
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
+
+/**
+ * @ignore
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -23,7 +24,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ADD_BLOCK_EXPLAIN'							=> '*Перетащите блоки и расположите в требуемой позиции',
 	'AJAX_ERROR'								=> 'Произошла ошибка в процессе обработки вашего запроса. Пожалуйста, попробуйте еще раз.',
-	'AJAX_LOADING'								=> 'Загрузка',
+	'AJAX_LOADING'								=> 'Загрузка...',
 	'AJAX_PROCESSING'							=> 'Обработка...',
 
 	'BACKGROUND'								=> 'Фон',
@@ -38,6 +39,7 @@ $lang = array_merge($lang, array(
 	'BLOCK_DISPLAY_TYPE'						=> 'Показывать',
 	'BLOCK_HIDE_TITLE'							=> 'Скрыть заголовок блока?',
 	'BLOCK_INACTIVE'							=> 'Скрытый',
+	'BLOCK_MISSING_TEMPLATE'					=> 'Отсутствует требуемый шаблон.',
 	'BLOCK_NOT_FOUND'							=> 'Запрошенная служба блокировки не найдена',
 	'BLOCK_NO_DATA'								=> 'Отсутствуют данные для отображения',
 	'BLOCK_NO_ID'								=> 'Идентификатор блока отсутствует',

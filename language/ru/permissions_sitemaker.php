@@ -42,8 +42,4 @@ $lang = array_merge($lang, array(
 	'ACL_A_SM_SETTINGS'			=> '[ SiteMaker ] Может управлять настройками Sitemaker',
 	'ACL_A_SM_MANAGE_BLOCKS'	=> '[ SiteMaker ] Может управлять блоками Sitemaker',
 	'ACL_A_SM_MANAGE_MENUS'		=> '[ SiteMaker ] Может управлять меню Sitemaker',
-	'ACL_A_SM_FILEMANAGER'		=> '[ SiteMaker ] Можно просматривать / управлять папками других пользователей в диспетчере файлов',
-
-	// User Permissions
-	'ACL_U_SM_FILEMANAGER'		=> '[ SiteMaker ] Может использовать файловый менеджер',
 ));

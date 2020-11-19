@@ -1,4 +1,4 @@
-# Перевод расширения SiteMaker на русский язык
+# Перевод расширения SiteMaker 3.3.1 на русский язык
 
 Перевод основан на работе **Golan**, участника форума [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536891#p536891).
 
