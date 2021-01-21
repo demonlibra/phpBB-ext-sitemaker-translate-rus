@@ -1,10 +1,10 @@
-# Перевод расширения SiteMaker 3.3.1 на русский язык
+# Перевод расширения SiteMaker на русский язык
 
 Перевод основан на работе **Golan**, участника форума [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536891#p536891).
 
 ## Установка
 
-1. Скачайте архив, используя ссылку [Clone or download - Download ZIP](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/archive/master.zip)  
+1. Перейдите на [страницу релизов](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/releases) и скачайте архив с соответствуеющей версией.
 
 2. Распакуйте архив  
 
@@ -17,4 +17,4 @@
 
 ## Снимки экрана
 
-<img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/screenshots/adm_menu1.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/screenshots/adm_menu2.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/screenshots/adm_settings.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/screenshots/blocks.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/screenshots/settings.png" />
+<img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/adm_menu1.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/adm_menu2.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/adm_settings.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/blocks.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/settings.png" />
