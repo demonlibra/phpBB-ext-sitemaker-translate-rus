@@ -2,19 +2,19 @@
 
 Перевод основан на работе **Golan**, участника форума [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536891#p536891).
 
-## Установка
+## Расширение SiteMaker
+Стабильную версию можно скачать с [phpBB](https://www.phpbb.com/customise/db/extension/phpbb_sitemaker_2)  
+Последние изменения можно увидеть на [GitHub](https://github.com/blitze/phpBB-ext-sitemaker)
 
-1. Перейдите на [страницу релизов](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/releases) и скачайте архив с соответствуеющей версией.
+## Установка руссификатора
 
-2. Распакуйте архив  
+1. Перейдите на [страницу релизов](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/releases) и скачайте архив соответствующий вашей версии расширения SiteMaker.
+
+2. Распакуйте архив.
 
 3. Скопируйте каталог `ru` в `.../ext/blitze/sitemaker/language/`
 
 
 ## Предложения и замечания
 
-Свои замечания по переводу Вы можете разместить в меню [Issues](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/issues) и в теме обсуждения перевода расширения на форуме [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536855#p536855).
-
-## Снимки экрана
-
-<img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/adm_menu1.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/adm_menu2.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/adm_settings.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/blocks.png" /> <img width="280" src="https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/blob/master/.screenshots/settings.png" />
+Свои замечания по переводу Вы можете разместить в [Issues](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/issues) и в теме обсуждения перевода расширения на форуме [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536855#p536855).
