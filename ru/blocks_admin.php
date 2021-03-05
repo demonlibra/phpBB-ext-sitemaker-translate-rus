@@ -1,15 +1,16 @@
 <?php
-/**
-*
-* @package phpBB Sitemaker [English]
-* @copyright (c) 2012 Daniel A. (blitze)
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
 
 /**
-* @ignore
-*/
+ *
+ * @package phpBB Sitemaker [English]
+ * @copyright (c) 2012 Daniel A. (blitze)
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
+
+/**
+ * @ignore
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -39,12 +40,14 @@ $lang = array_merge($lang, array(
 	'BLITZE_SITEMAKER_BLOCK_FORUM_POLL'			=> 'Опрос',
 	'BLITZE_SITEMAKER_BLOCK_FORUM_TOPICS'		=> 'Последние темы',
 	'BLITZE_SITEMAKER_BLOCK_GOOGLE_MAPS'		=> 'Карты Google',
+	'BLITZE_SITEMAKER_BLOCK_HOT_TOPICS'			=> 'Горячие темы',
 	'BLITZE_SITEMAKER_BLOCK_LINKS'				=> 'Ссылки',
 	'BLITZE_SITEMAKER_BLOCK_LOGIN'				=> 'Окно входа',
 	'BLITZE_SITEMAKER_BLOCK_MEMBERS'			=> 'Выбранные пользователи',
 	'BLITZE_SITEMAKER_BLOCK_MEMBER_MENU'		=> 'Меню пользователя',
 	'BLITZE_SITEMAKER_BLOCK_MENU'				=> 'Меню',
 	'BLITZE_SITEMAKER_BLOCK_MYBOOKMARKS'		=> 'Мои закладки',
+	'BLITZE_SITEMAKER_BLOCK_RECENT_TOPICS'		=> 'Последние темы',
 	'BLITZE_SITEMAKER_BLOCK_STATS'				=> 'Статистика',
 	'BLITZE_SITEMAKER_BLOCK_STYLE_SWITCHER'		=> 'Выбор стиля',
 	'BLITZE_SITEMAKER_BLOCK_WHATS_NEW'			=> 'Что нового?',
@@ -173,10 +176,12 @@ $lang = array_merge($lang, array(
 	'SHOW_WORD_COUNT'							=> 'Показать количество слов?',
 
 	'TEMPLATE'									=> 'Шаблон',
-	'TOPICS_ONLY'								=> 'Только темы?',
 	'TOPIC_TITLE_LIMIT'							=> 'Максимум # символов для названия темы',
 	'TOPIC_TYPE'								=> 'Тип темы',
 	'TOPIC_TYPE_EXPLAIN'						=> 'Выберите типы тем, которые вы хотите отобразить. Оставьте не отмеченными, чтобы выбрать из всех типов темы',
+	'TOPICS_LOOK_BACK'							=> 'Look back',
+	'TOPICS_ONLY'								=> 'Только темы?',
+	'TOPICS_PER_PAGE'							=> 'На странице',
 
 	'WORD_MAX_SIZE'								=> 'Максимальный размер шрифта',
 	'WORD_MIN_SIZE'								=> 'Минимальный размер шрифта',

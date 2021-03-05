@@ -1,4 +1,5 @@
 <?php
+
 /**
  *
  * @package phpBB Sitemaker [English]
@@ -39,6 +40,7 @@ $lang = array_merge($lang, array(
 	'FORUM_STICKY_POSTS'			=> 'Последние прилепленные сообщения',
 
 	'HELP'							=> 'Справка',
+	'HOT_TOPICS'					=> 'Горячие темы',
 	'HOURLY_MEMBER'					=> 'Пользователь часа',
 
 	'GOOGLE_MAP'					=> 'Карты Google',

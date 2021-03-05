@@ -67,5 +67,5 @@ $lang = array_merge($lang, array(
 	'ICON_SIZE_4X'				=> '4x',
 	'ICON_SIZE_5X'				=> '5x',
 
-	'NO_ICON'				=> 'Без иконки',
+	'NO_ICON'					=> 'Без иконки',
 ));
