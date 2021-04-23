@@ -3,12 +3,12 @@
 Перевод основан на работе **Golan**, участника форума [phpBB Guru](https://www.phpbbguru.net/community/viewtopic.php?p=536891#p536891).
 
 ## Расширение SiteMaker
-Стабильную версию можно скачать с [phpBB](https://www.phpbb.com/customise/db/extension/phpbb_sitemaker_2)  
+Стабильную версию расширения `SiteMaker` можно скачать с сайта [phpBB](https://www.phpbb.com/customise/db/extension/phpbb_sitemaker_2)
 Последние изменения можно увидеть на [GitHub](https://github.com/blitze/phpBB-ext-sitemaker)
 
 ## Установка руссификатора
 
-1. Перейдите на [страницу релизов](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/releases) и скачайте архив соответствующий вашей версии расширения SiteMaker.
+1. Перейдите на [страницу релизов](https://github.com/demonlibra/phpBB-ext-sitemaker-translate-rus/releases) и скачайте архив, соответствующий вашей версии расширения SiteMaker.
 
 2. Распакуйте архив.
 

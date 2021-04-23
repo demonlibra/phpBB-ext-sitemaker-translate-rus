@@ -40,7 +40,6 @@ $lang = array_merge($lang, array(
 	'FORUM_STICKY_POSTS'			=> 'Последние прилепленные сообщения',
 
 	'HELP'							=> 'Справка',
-	'HOT_TOPICS'					=> 'Горячие темы',
 	'HOURLY_MEMBER'					=> 'Пользователь часа',
 
 	'GOOGLE_MAP'					=> 'Карты Google',
@@ -62,6 +61,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_TOPICS'					=> 'Отсутствуют новые темы',
 
 	'POLL'							=> 'Опрос',
+	'POPULAR_TOPICS'				=> 'Популярные темы',
 	'POSTS_MEMBER'					=> 'Самый активный пользователь',
 	'PROCESSING'					=> 'обработка ...',
 
