@@ -65,9 +65,7 @@ $lang = array_merge($lang, [
 	'LOG_DELETED_BLOCKS'			=> 'Удален некорректный блок:<br />%s',
 
 	'NAVIGATION_SETTINGS'	=> 'Настройки навигации',
-	'NO_NAVBAR'				=> 'Ничего',
 
-	'SELECT_NAVBAR_MENU'		=> 'Выберите главное меню навигации для шапки форума',
 	'SETTINGS_SAVED'			=> 'Ваши настройки были сохранены',
 	'SHOW'						=> 'Демонстрация',
 	'SHOW_FORUM_NAV'			=> 'Показать ссылку ’Форум’?',

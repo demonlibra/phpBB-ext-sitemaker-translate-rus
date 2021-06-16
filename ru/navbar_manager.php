@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'LOWERCASE'					=> 'Строчные',
 	'MARGIN'					=> 'Объединение',
 	'NAVBAR'					=> 'Навигационное меню',
+	'NAVBAR_MENU'				=> Меню навигации',
 	'NAVBAR_DROPDOWN'			=> 'Выпадающий',
 	'NAVBAR_LOCATION'			=> 'Раположение',
 	'NAVBAR_LOCATION_OPTION'	=> 'Расположение #%s',
